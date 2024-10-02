@@ -1,0 +1,86 @@
+
+.deadline {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e; 
+  color: #f0f0f0;
+  padding: 1rem;
+  max-width: 60rem; 
+  margin: 1rem auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  display: flex;
+  gap: 2rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 40%;
+}
+
+.task-section {
+  width: 60%;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.no-tasks {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.task {
+  background-color: #444; 
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #f44336; 
+  cursor: pointer;
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+.task.completed {
+  text-decoration: line-through;
+  color: #9e9e9e; 
+}
+
+button {
+  margin-left: 10px;
+}
+
+.completed-button {
+  background-color: green;
+}
+
+input,
+textarea,
+select {
+  background-color: #ffffff; 
+  color: #f0f0f0;
+}
+
+.MuiInputBase-input {
+  background-color: #2e2e2e; 
+  color: #f0f0f0;
+}
+
+.MuiButton-root {
+  background-color: #3f51b5;
+  color: #f0f0f0;
+}
+
+.MuiPickersDay-daySelected {
+  background-color: #3f51b5 !important;
+  color: #ffffff !important;
+}
+

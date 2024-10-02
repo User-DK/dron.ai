@@ -1,0 +1,13 @@
+#5e76ff
+
+#icons
+clipboard-plus
+clipboard-check
+skull
+quote
+hourglass-empty
+news
+school
+folder
+brand-youtube
+ai

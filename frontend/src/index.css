@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root {
+  /* font-family: "Open Sans", sans-serif; */
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #232323;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    --mantine-spacing-xl: 16px;
+  --mantine-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --mantine-color-pink-6: #ff6b6b;
+  --mantine-color-orange-6: #ffa94d;
+}
+
+a {
+  font-weight: 500;
+  color: #ffa764;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #f29853;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #000000;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #f29853;
+  background-color: #343434;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+/* 
+:root {
+  --primary-blue: rgb(120, 170, 255); 
+  --secondary-blue: rgb(180, 200, 230); 
+  --text-primary-light: rgb(30, 30, 30); 
+  --text-primary-dark: rgb(220, 220, 220);
+
+  --text-secondary-light: rgb(80, 80, 80); 
+  --text-secondary-dark: rgb(180, 180, 180); 
+
+  --bg-primary-light: rgb(245, 245, 245); 
+  --bg-primary-dark: rgb(45, 45, 45); 
+
+  --bg-secondary-light: rgb(230, 240, 250);
+  --bg-secondary-dark: rgb(50, 50, 50); 
+
+  --bg-navbar-light: rgb(200, 220, 240); 
+  --bg-navbar-dark: rgb(40, 40, 60); 
+}
+
+.light-theme {
+  --text-primary: var(--text-primary-light);
+  --text-secondary: var(--text-secondary-light);
+  --bg-primary: var(--bg-primary-light);
+  --bg-secondary: var(--bg-secondary-light);
+  --bg-navbar: var(--bg-navbar-light);
+}
+
+.dark-theme {
+  --text-primary: var(--text-primary-dark);
+  --text-secondary: var(--text-secondary-dark);
+  --bg-primary: var(--bg-primary-dark);
+  --bg-secondary: var(--bg-secondary-dark);
+  --bg-navbar: var(--bg-navbar-dark);
+} */

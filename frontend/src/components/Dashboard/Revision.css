@@ -1,0 +1,41 @@
+.revision {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  padding: 20px;
+ max-width: 60rem; 
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reminder-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
